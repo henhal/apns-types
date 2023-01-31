@@ -1,0 +1,37 @@
+{
+  "name": "apns-types",
+  "version": "1.0.0",
+  "description": "Type definitions for APNS (Apple Push Notification Service)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "tsc",
+    "prepack": "yarn clean && yarn build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henhal/apns-types.git"
+  },
+  "keywords": [
+    "APNS",
+    "Apple",
+    "Push",
+    "Notification",
+    "Service",
+    "TypeScript",
+    "types"
+  ],
+  "author": "Henrik Hall",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/henhal/apns-types/issues"
+  },
+  "homepage": "https://github.com/henhal/apns-types#readme",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
